@@ -19,6 +19,11 @@ class TaskIndex extends Component
 
     public function mount()
     {
+        
+    }
+
+    public function boot()
+    {
         $this->tasks =Task::with('user')->get();
     }
 
