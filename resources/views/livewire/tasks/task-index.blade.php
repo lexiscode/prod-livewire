@@ -7,12 +7,22 @@
             type="text"
             wire:model="name"
         />
+        <!--To setup 'live' validation>> wire:model.live="name"-->
+        <!--Enables Enter key to save>> wire:keydown.enter="save"-->
+        <!--Enables 0 key to save>> wire:keyup.0="save"-->
+        {{--Enables Mouse Hover to save>> wire:mouseenter="save" --}}
 
         <span class="absolute -ml-6 mt-2">
             <span x-text="$wire.name.length"></span>
         </span>
 
-        <x-button :button="$button" />
+        <x-button :button="$button" :click="'save'"/>
+
+        <div class="text-red-500">
+            @error('name')
+            <span>{{ $message }}</span>
+            @enderror
+        </div>
 
     </div>
 

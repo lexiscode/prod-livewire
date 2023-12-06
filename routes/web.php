@@ -11,7 +11,7 @@ Route::get('/', function () {
 });
 
 Route::get('/tasks/create', TaskCreate::class);
-Route::get('/tasks', TaskIndex::class);
+Route::get('/tasks', TaskIndex::class)->name('tasks');
 //Route::get('/tasks/{id}', TaskShow::class); or alternatively below
 Route::get('/tasks/{task}', TaskShow::class);
 
