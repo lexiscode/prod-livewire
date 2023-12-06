@@ -16,11 +16,11 @@ class TaskSeeder extends Seeder
         $tasks = [
             [
                 'user_id' => 1,
-                'name' => 'Task 1',
+                'name' => 'This is Task Number 1',
             ],
             [
                 'user_id' => 1,
-                'name' => 'Task 2'
+                'name' => 'This is Task Number 2'
             ]
         ];
 
