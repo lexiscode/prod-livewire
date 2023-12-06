@@ -1,7 +1,7 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 
-Prod_Livewire is a single-page Laravel project aimed at helping you learn and master Laravel's Livewire library as a substitute for Vue and React. This project is designed as a simple todo application, allowing you to understand the fundamentals of using Livewire to build dynamic and interactive user interfaces.
+Prod-Livewire is a single-page Laravel project aimed at helping learning and mastering Laravel's Livewire library as a substitute for Vue and React. This project is designed as a simple todo application, allowing me understand the fundamentals of using Livewire to build dynamic and interactive user interfaces.
 
 ## Table of Contents
 
