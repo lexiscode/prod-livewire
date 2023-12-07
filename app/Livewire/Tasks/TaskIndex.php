@@ -8,7 +8,6 @@ use Livewire\Attributes\Rule;
 use Livewire\Attributes\Title;
 
 
-
 #[Title('Tasks - Prod Livewire')]
 class TaskIndex extends Component
 {
@@ -19,7 +18,7 @@ class TaskIndex extends Component
 
     public function mount()
     {
-        
+
     }
 
     public function boot()
